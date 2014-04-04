@@ -1,3 +1,4 @@
+[![Stories in Ready](https://badge.waffle.io/robertocarroll/icc-beta.png?label=ready&title=Ready)](https://waffle.io/robertocarroll/icc-beta)
 icc-beta
 ========
 
