@@ -1,0 +1,40 @@
+/*------------------------------------*\
+    $Links
+\*------------------------------------*/
+
+	
+	/*  Normal link */
+	a {color: $link-colour; text-decoration: none; @include transition(color, 0.5s, ease-out);}
+	
+	.vco-storyjs a {color: $link-colour !important; text-decoration: none; @include transition(color, 0.5s, ease-out);}
+
+	/*  Hover over */	
+	a:hover, a:focus {color: darken( $light-blue, 5% ); text-decoration: underline;} 
+
+	.vco-storyjs a:hover, .vco-storyjs a:focus {color: darken( $light-blue, 5% ); text-decoration: underline;} 
+	
+	/*  Link that's been clicked on */
+	a:visited {}
+	
+	/*  When the link is being clicked	 */
+	a:active { color: $link-colour;}
+	
+	p a { color: $link-colour; text-decoration: underline; @include transition(color, 0.5s, ease-out); }
+
+	p a:hover, p a:focus {color: darken( $light-blue, 5% ); text-decoration: underline;} 
+	
+	/*	 
+	   No text-shadow: twitter.com/miketaylr/status/12228805301 
+	   Also: highlight colour for selection */
+	::-moz-selection{ background: $link-colour; color:#fff; text-shadow: none; }
+	::selection { background:$link-colour; color:#fff; text-shadow: none; } 
+	
+	/*  j.mp/webkit-tap-highlight-color 
+	a:link { -webkit-tap-highlight-color: $$link-colour; } */
+	
+	/* Accessible focus treatment: people.opera.com/patrickl/experiments/keyboard/test */
+	a:hover, a:active { outline: none; }
+
+
+
+
