@@ -2,6 +2,7 @@
 layout: style
 title: Style Points 
 ---
+# Style points
 
 Follow The Oxford Style Manual, Oxford University Press if a point is not covered here.
 
@@ -61,12 +62,12 @@ Use contractions, e.g. it’s, who’s, don’t, can’t, won’t, except in ver
 ## Dates and times
 Use day month year, in that order, with no commas and no additions to the day. Don’t use the numbers-only date format.
 
-25 October 2011
-July 2011
-5 July 
-2010---11
-1999---2001 but from 1999 to 2001 
-1990s --- No apostrophe
+- 25 October 2011
+- July 2011
+- 5 July 
+- 2010---11
+- 1999---2001 but from 1999 to 2001 
+- 1990s --- No apostrophe
 
 Use 12-hour clock followed by a.m. or p.m., e.g. 11.30 a.m.  
 
@@ -104,8 +105,7 @@ Links are the fundamental basis of the web. Internal links (ones between differe
 
 For search engines, accessibility and good practice, do not use “click here” for links. Make the link descriptive – explaining what the link offers - preferably matching the title of the document you are linking to and make sense when read out of context. 
 
-**Example**
-Instead of “For more information on the structure of the ICC, click here” write “See [who's who at the International Criminal Court](link) for more information”.
+**Example**<br>Instead of “For more information on the structure of the ICC, click here” write “See [who's who at the International Criminal Court](link) for more information”.
 
 ## Numbers
 Numbers up to and including ten should be written out. Try not to begin a sentence with a number, but if you do write the number in words. 
@@ -146,8 +146,7 @@ One space after a full stop, not two.
 ## Spelling 
 Use British English rather than American English. 
 
-**Example**
-Use “-ise” not “-ize”. Both forms are permissible in British English. However, for ease of use, -ise is preferred because there is not a need to learn a long list of exceptions.
+**Example**<br>Use “-ise” not “-ize”. Both forms are permissible in British English. However, for ease of use, -ise is preferred because there is not a need to learn a long list of exceptions.
 
 The “-yse” form for such words as “paralyse” and “analyse” is the only correct spelling in British English.
 
