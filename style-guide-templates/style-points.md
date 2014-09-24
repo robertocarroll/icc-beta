@@ -32,7 +32,7 @@ Start with an introductory sentence which ends in a colon:
 - begin with a lower-case letter and end with a semi-colon;
 - end the last item in a full stop, unless the sentence continues below it. 
 
-If the list items are complete sentences begin with an upper-case later and end with a full stop.
+If the list items are complete sentences begin with an upper-case letter and end with a full stop.
 
 ## Capital letters
 Use lower case for some terms --- such as the parties and participants in proceedings  --- in general references but capitalised in specific references. 
@@ -40,7 +40,7 @@ Use lower case for some terms --- such as the parties and participants in procee
 Don't capitise the letter after a colon.
 
 **Examples**
-Use “the accused” for general references, but “the Accused” when referring to a specific accused person or persons, and “the rights of the defence” (as a general concept), but: “the rights of the Defence for Thomas Lubanga”.
+Use “the accused” for general references, but “the Accused” when referring to a specific accused person or persons, and “the rights of the defence” (as a general concept), but “the rights of the Defence for Thomas Lubanga”.
 
 Use “a statement from the deceased victim’s family”, but “a statement from the family of deceased Victim a/0051/08”.
 
@@ -153,7 +153,7 @@ One space after a full stop, not two.
 ## Spelling 
 Use British English rather than American English. 
 
-### Examples
+**Examples**
 Use “-ise” not “-ize”. Both forms are permissible in British English. However, for ease of use, -ise is preferred because there is not a need to learn a long list of exceptions.
 
 The “-yse” form for such words as “paralyse” and “analyse” is the only correct spelling in British English.
