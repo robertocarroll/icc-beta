@@ -6,9 +6,9 @@ title: Style Points
 Follow The Oxford Style Manual, Oxford University Press if a point is not covered here.
 
 ## Abbreviations and acronyms
-Use the full name with the abbreviation in brackets on first use on a page unless it is very well known. Afterwards use the initials. Only include the initials in brackets if you are going to use them later. 
+Use the full name with the abbreviation in brackets on first use on a page unless it is very well known. Use the initials subsequently on the page. Only include the initials in brackets if you are going to use them later. 
 
-### Example
+**Example**
 - Use the Victims and Witnesses Unit (VWU) at first mention. Use the VWU subsequently.   
 - Use the Victims and Witnesses Unit if it is only mentioned once.  
 
@@ -18,10 +18,12 @@ Don't use full stops except for:
 - H.E. for His/Her Excellency
 
 ## Ampersands
-Use “and“ in most cases. Use & when part of a company name. 
+Use “and” in most cases. Only use “&” when part of a company name. 
 	
 ## Brackets
-Use curly brackets (like this) rather than square brackets \[not like this\]. Use square brackets to make amendments to quoted material and to provide translations or explanations of titles left in another language.
+Use curly brackets (like this) rather than square brackets \[not like this\]. 
+
+Only use square brackets to make amendments to quoted material and to provide translations or explanations of titles left in another language.
 
 ## Bullet points
 Use bullet points and lists to break up text and make it easier to read. 
@@ -33,12 +35,14 @@ Start with an introductory sentence which ends in a colon:
 If the list items are complete sentences begin with an upper-case later and end with a full stop.
 
 ## Capital letters
-Use lower case for some terms, e.g. the parties and participants in proceedings, in general references, but capitalised in specific references. 
+Use lower case for some terms --- such as the parties and participants in proceedings  --- in general references but capitalised in specific references. 
 
-### Examples
+Don't capitise the letter after a colon.
+
+**Examples**
 Use “the accused” for general references, but “the Accused” when referring to a specific accused person or persons, and “the rights of the defence” (as a general concept), but: “the rights of the Defence for Thomas Lubanga”.
 
-Use a statement from the deceased victim’s family, but: a statement from the family of deceased Victim a/0051/08.
+Use “a statement from the deceased victim’s family”, but “a statement from the family of deceased Victim a/0051/08”.
 
 Titles of Court filings should have only the initial letter capitalised.
 
@@ -47,8 +51,6 @@ Capitalise “state” for States Parties and references to a specific country o
 Article, rule, regulation, page, paragraph, chapter and note are not capitalised.
 
 Surnames use initial capital (not all capitals), e.g. Jean-Pierre Bemba not Jean-Pierre BEMBA. 
-
-Don't capitise the letter after a colon.
 
 Capitalise The Hague but not the Netherlands. 
 
@@ -62,21 +64,21 @@ Currency names are lower case, e.g. pound, dollar, euro
 Use contractions, e.g. it’s, who’s, don’t, can’t, won’t, except in very formal text. 
 
 ## Dates and times
-Day month year, in that order, with no commas and no additions to the day. Don’t use the numbers-only date format.
+Use day month year, in that order, with no commas and no additions to the day. Don’t use the numbers-only date format.
 
 25 October 2011
 July 2011
 5 July 
 2010---11
 1999---2001 but from 1999 to 2001 
-1990s - No apostrophe
+1990s --- No apostrophe
 
 Use 12-hour clock followed by a.m. or p.m., e.g. 11.30 a.m.  
 
 Use midnight not “12 midnight”.
 
 ## E.g., etc., and i.e.
-Use full stops between and after these terms. Abbreviate if it doesn't disrupt the sentence: “for example“ and “specifically“ can be clearer.   
+Use full stops between and after these terms. Abbreviate only if it doesn't disrupt the sentence: “for example“ and “specifically“ can be clearer and less jarring.   
 
 ## Email addresses
 Use links for email addresses and write them in full. 
@@ -95,19 +97,19 @@ Use an en dash with a space either side to – like this – to break up a sente
 ## Italics
 Italicise Latin and other foreign-language expressions. Don't use inverted commas. 
 
-Don't italicise “ad hoc“, “per capita“, “per se“, “amicus curiae“ as they are in common use. 
+Don't italicise “ad hoc”, “per capita”, “per se”, “amicus curiae” as they are in common use. 
 
 ## Legal text references
 When refering to articles, rules or regulations from the Court’s basic texts, the numbers and letters of sub-paragraphs are separated by brackets with a space between the word “article” etc. and the number, e.g. article 90(2)(a), rule 119(1)(a), regulation 58(3).
 
-Avoid repeating large chunks of legal text. For example, don’t include a long section from the Rome Statute; link to the artile instead.  
+Avoid repeating large chunks of legal text. For example, don’t include a long section from the Rome Statute; link to the article instead.  
 
 ## Links
 Links are the fundamental basis of the web. Internal links (ones between different parts of our website) help to create a rich experience, prevent repeating large chunks of text and help improve rankings with search engines.   
 
 For search engines, accessibility and good practice, do not use “click here” for links. Make the link descriptive – explaining what the link offers - preferably matching the title of the document you are linking to and make sense when read out of context. 
 
-### Example
+**Example**
 Instead of “For more information on the structure of the ICC, click here” write “See [who's who at the International Criminal Court](link) for more information”.
 
 ## Numbers
@@ -141,15 +143,15 @@ Use double quotation marks for first-level quotations.
 ### Block quotes
 Use a block quote for long quotes. Don't begin or end with quotation marks. Mark a block quote like this:
 
-> This is a blockquote.
-> 
-> This is the second paragraph in the blockquote. 
+\> This is a blockquote.
+\> 
+\> This is the second paragraph in the blockquote. 
 
 ## Spaces
-One space after a full stop. Not two.
+One space after a full stop, not two.
 
 ## Spelling 
-Use British English rather American English. 
+Use British English rather than American English. 
 
 ### Examples
 Use “-ise” not “-ize”. Both forms are permissible in British English. However, for ease of use, -ise is preferred because there is not a need to learn a long list of exceptions.
@@ -161,7 +163,7 @@ Use “-ct-” not “-x-” in “connection” and “reflection”.
 ## Titles
 The page title is very important. It tells users and search engines what the page is about: 
 
-- No more than 70 characters if possible. 
+- No more than 70 characters. 
 - Speak to the focus of the page.
-- Don’t use abbreviations, e.g. International Criminal Court not ICC if possible.
+- Don’t use abbreviations, e.g. International Criminal Court not ICC.
 - Include who the article or page is about if possible.
