@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: style
 title: Style Points 
 ---
 
@@ -40,19 +40,14 @@ Use lower case for some terms --- such as the parties and participants in procee
 Don't capitise the letter after a colon.
 
 **Examples**
-Use “the accused” for general references, but “the Accused” when referring to a specific accused person or persons, and “the rights of the defence” (as a general concept), but “the rights of the Defence for Thomas Lubanga”.
 
-Use “a statement from the deceased victim’s family”, but “a statement from the family of deceased Victim a/0051/08”.
-
-Titles of Court filings should have only the initial letter capitalised.
-
-Capitalise “state” for States Parties and references to a specific country or government. Use lower case in most other instances.
-
-Article, rule, regulation, page, paragraph, chapter and note are not capitalised.
-
-Surnames use initial capital (not all capitals), e.g. Jean-Pierre Bemba not Jean-Pierre BEMBA. 
-
-Capitalise The Hague but not the Netherlands. 
+- Use “the accused” for general references, but “the Accused” when referring to a specific accused person or persons, and “the rights of the defence” (as a general concept), but “the rights of the Defence for Thomas Lubanga”.
+- Use “a statement from the deceased victim’s family”, but “a statement from the family of deceased Victim a/0051/08”.
+- Titles of Court filings should have only the initial letter capitalised.
+- Capitalise “state” for States Parties and references to a specific country or government. Use lower case in most other instances.
+- Article, rule, regulation, page, paragraph, chapter and note are not capitalised.
+- Surnames use initial capital (not all capitals), e.g. Jean-Pierre Bemba not Jean-Pierre BEMBA. 
+- Capitalise The Hague but not the Netherlands. 
 
 ## Currency 
 Use the currency symbol before the amount without a space, e.g.
@@ -143,9 +138,7 @@ Use double quotation marks for first-level quotations.
 ### Block quotes
 Use a block quote for long quotes. Don't begin or end with quotation marks. Mark a block quote like this:
 
-\> This is a blockquote.
-\> 
-\> This is the second paragraph in the blockquote. 
+\> This is a blockquote.<br>\><br>\> This is the second paragraph in the blockquote. 
 
 ## Spaces
 One space after a full stop, not two.
@@ -153,7 +146,7 @@ One space after a full stop, not two.
 ## Spelling 
 Use British English rather than American English. 
 
-**Examples**
+**Example**
 Use “-ise” not “-ize”. Both forms are permissible in British English. However, for ease of use, -ise is preferred because there is not a need to learn a long list of exceptions.
 
 The “-yse” form for such words as “paralyse” and “analyse” is the only correct spelling in British English.
