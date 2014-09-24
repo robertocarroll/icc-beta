@@ -4,8 +4,8 @@
 
 
 ## Style guide
-From style-guide-templates folder run:
+From style-guide-templates folder run from root:
 
-jekyll build --destination ../style-guide
+jekyll build --source ../style-guide-templates --destination ../style-guide
 
 to build the style guide
