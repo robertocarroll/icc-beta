@@ -59,8 +59,8 @@ Day month year, in that order, with no commas and no additions to the day
 15 July 2011 
 July 2011
 5 July 
-2010-11
-1999-2001 
+2010---11
+1999---2001 
 1990s 
 
 
@@ -84,7 +84,7 @@ July 2011
 
 
 ## Spaces
-
+One space after a full stop. Not two.
 
 ## Spelling 
 Use British English
