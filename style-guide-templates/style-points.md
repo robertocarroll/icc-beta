@@ -17,9 +17,6 @@ Don't use full stops except for:
 - B.C., A.D.
 - B.A. and other academic degrees
 - H.E. for His/Her Excellency
-
-## Ampersands
-Use “and” in most cases. Only use “&” when part of a company name. 
 	
 ## Brackets
 Use curly brackets (like this) rather than square brackets \[not like this\]. 
@@ -42,7 +39,7 @@ Don't capitise the letter after a colon.
 
 **Examples**
 
-- Use “the accused” for general references, but “the Accused” when referring to a specific accused person or persons, and “the rights of the defence” (as a general concept), but “the rights of the Defence for Thomas Lubanga”.
+- use “the accused” for general references, but “the Accused” when referring to a specific accused person or persons, and “the rights of the defence” (as a general concept), but: “the rights of the Defence for Thomas Lubanga”.
 - Use “a statement from the deceased victim’s family”, but “a statement from the family of deceased Victim a/0051/08”.
 - Titles of Court filings should have only the initial letter capitalised.
 - Capitalise “state” for States Parties and references to a specific country or government. Use lower case in most other instances.
@@ -56,8 +53,6 @@ Use the currency symbol before the amount without a space, e.g.
 
 Currency names are lower case, e.g. pound, dollar, euro
 
-## Contractions
-Use contractions, e.g. it’s, who’s, don’t, can’t, won’t, except in very formal text. 
 
 ## Dates and times
 Use day month year, in that order, with no commas and no additions to the day. Don’t use the numbers-only date format.
@@ -69,9 +64,7 @@ Use day month year, in that order, with no commas and no additions to the day. D
 - 1999---2001 but from 1999 to 2001 
 - 1990s --- No apostrophe
 
-Use 12-hour clock followed by a.m. or p.m., e.g. 11.30 a.m.  
-
-Use midnight not “12 midnight”.
+Use military time: From 09:00 to 15:00 (The Hague local time).
 
 ## E.g., etc., and i.e.
 Use full stops between and after these terms. Abbreviate only if it doesn't disrupt the sentence: “for example“ and “specifically“ can be clearer and less jarring.   
@@ -110,24 +103,10 @@ For search engines, accessibility and good practice, do not use “click here”
 ## Numbers
 Numbers up to and including ten should be written out. Try not to begin a sentence with a number, but if you do write the number in words. 
 
-Write percentages as numbers or spelled out, as appropriate in the context. 
-
-Separate big numbers with spaces not commas, e.g. 2 500 000.
-
-## Place names
-Use English forms, The Hague, not Den Haag or ‘s-Gravenhage;
-Senegal, not Sénégal. 
-
-Exceptions: Côte d’Ivoire, not Ivory Coast; Timor-Leste, not East Timor.
-
-Use a comma between city and country, e.g. Kinshasa, Democratic Republic of the Congo; Darfur, Sudan
-
-Use the Democratic Republic of the Congo, but Sudan (no the).
+Separate big numbers with commas not spaces, e.g. 2,500,000.
 
 ## Quotes and speech marks
 Quotation marks and apostrophes should be smart (“…”), not straight ("…").
-
-Do not use “scare quotes” around colloquial or slang words or phrases.
 
 ### Single quotes
 Use single quotation marks for quotations within a quotation.
@@ -135,22 +114,13 @@ Use single quotation marks for quotations within a quotation.
 ### Double quotes
 Use double quotation marks for first-level quotations.
 
-### Block quotes
-Use a block quote for long quotes. Don't begin or end with quotation marks. Mark a block quote like this:
-
-\> This is a blockquote.<br>\><br>\> This is the second paragraph in the blockquote. 
-
 ## Spaces
 One space after a full stop, not two.
 
 ## Spelling 
 Use British English rather than American English. 
 
-**Example**<br>Use “-ise” not “-ize”. Both forms are permissible in British English. However, for ease of use, -ise is preferred because there is not a need to learn a long list of exceptions.
 
-The “-yse” form for such words as “paralyse” and “analyse” is the only correct spelling in British English.
-
-Use “-ct-” not “-x-” in “connection” and “reflection”.
 
 ## Titles
 The page title is very important. It tells users and search engines what the page is about: 
