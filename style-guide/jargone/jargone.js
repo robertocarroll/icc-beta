@@ -11,7 +11,10 @@ javascript:(function () {
 
     // list of words to avoid based on https://www.gov.uk/designprinciples/styleguide#item_4_1_3
     var words = [
+            ['a depressive',"a person with / someone who has depression - odi.dwp.gov.uk/inclusive-communications/representation/language.php"],
+            ['a diabetic',"a person with / someone who has diabetes - odi.dwp.gov.uk/inclusive-communications/representation/language.php"],
             ['a number of'],
+            ['able-bodied',"non-disabled - odi.dwp.gov.uk/inclusive-communications/representation/language.php"],
             ['abundance'],
             ['accede to'],
             ['accelerate'],
@@ -23,6 +26,7 @@ javascript:(function () {
             ['acid test',"from time to time one can even, if one jeers loudly enough, send some worn-out and useless phrase … into the dustbin where it belongs. - George Orwell, Politics and the English Language, Horizon, April 1946"],
             ['acquiesce'],
             ['acquire'],
+            ['across-the-piece',"(Local Government Association banned words, 2009)"],
             ['actioned'],
             ['actively contemplating',"Journalese, Keith Waterhouse, On Newspaper Style"],
             ['additional',"extra, more"],
