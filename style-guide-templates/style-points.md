@@ -1,7 +1,9 @@
 ---
 layout: style
-title: Style Points 
+title: Style Points
+published: true
 ---
+
 # Style points
 
 Follow The Oxford Style Manual, Oxford University Press if a point is not covered here.
@@ -145,11 +147,9 @@ One space after a full stop, not two.
 ## Spelling 
 Use British English rather than American English. 
 
+- Test edit for prose.io
+
 ## Titles 
 No punctuation after Mr, Ms, or Dr. 
 
 Use “Ms” rather than “Mrs” unless specifically requested otherwise.
-
-
-
-  
