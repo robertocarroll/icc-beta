@@ -9,7 +9,7 @@ published: true
 Follow The Oxford Style Manual, Oxford University Press if a point is not covered here.
 
 ## Abbreviations and acronyms
-Use the full name with the abbreviation in brackets on first use on a page unless it is very well known. Use the initials subsequently on the page. Only include the initials in brackets if you are going to use them later. 
+Use the full name with the abbreviation in brackets on first use on a page unless it is well known. Use the initials subsequently on the page. Only include the initials in brackets if you are going to use them later. 
 
 **Example**
 - Use the “Assembly of States Parties (ASP)” at first mention. Use the “ASP” subsequently.   
@@ -25,7 +25,7 @@ Prefer the possessive form with an apostrophe to “of”, e.g. “the witness�
 
 Use “of” in a higher register or when a dependent clause follows, e.g. “the testimony of the witness whose child was abducted”.
 
-Use the possessive ending ’s after singular words and plural nouns not ending in s. The exception is where no additional s is pronounced, in which case, none is written. 
+Use the possessive ending ’s after singular words and plural nouns not ending in s. The exception is where extra s is not pronounced, in which case, none is written. 
 
 **Examples** 
 - the Court’s view
@@ -52,7 +52,7 @@ Start with an introductory sentence which ends in a colon:
 If the list items are complete sentences begin with an upper-case letter and end with a full stop.
 
 ## Capital letters
-Use lower case for some terms --- such as the parties and participants in proceedings  --- in general references but capitalised in specific references. 
+Use lower case for some terms --- the parties and participants in proceedings, for example  --- in general references but capitalised in specific references. 
 
 Don't capitise the letter after a colon.
 
@@ -94,7 +94,7 @@ Use links for email addresses and write them in full.
 Don't use the generic “he” or “they” instead of “he or she”. Use plural forms of nouns where possible. If not, use “he or she”, “his or her” and “his or hers” but avoid repetition, which can quickly make sentences clumsy. 
 
 ## Headings and sub-headings
-The page title is very important. It tells users and search engines what the page is about: 
+The page heading is important. It tells users and search engines what the page is about: 
 
 - No more than 70 characters. 
 - Speak to the focus of the page.
@@ -123,7 +123,7 @@ Avoid repeating large chunks of legal text. For example, don’t include a long 
 ## Links
 Links are the fundamental basis of the web. Internal links (ones between different parts of our website) help to create a rich experience, prevent repeating large chunks of text and help improve rankings with search engines.   
 
-For search engines, accessibility and good practice, do not use “click here” for links. Make the link descriptive – explaining what the link offers - preferably matching the title of the document you are linking to and make sense when read out of context. 
+Don’t use “click here” for links. Make the link descriptive – explaining what the link offers - preferably matching the title of the document you are linking to and make sense when read out of context. 
 
 **Example**<br>Instead of “For more information on the structure of the ICC, click here” write “See [who's who at the International Criminal Court](link) for more information”.
 
@@ -147,7 +147,11 @@ One space after a full stop, not two.
 ## Spelling 
 Use British English rather than American English. 
 
-- Test edit for prose.io
+**Examples**
+- **—eable/—able** British English tends not to omit the silent e when forming adjectives with this suffix.
+- **—ce/—se** In British English the verb that relates to a noun ending in -ce is sometimes given the ending -se, e.g. advice (noun) / advise (verb), practice/practise.
+- **—our/—or** British English words ending in -our often lose the u in American English.  
+- **—re/—er** British English words ending in -re often end in -er in American English, e.g. centre/center.     
 
 ## Titles 
 No punctuation after Mr, Ms, or Dr. 
