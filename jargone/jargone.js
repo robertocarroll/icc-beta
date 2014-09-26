@@ -11,6 +11,7 @@ javascript:(function () {
 
     // list of words to avoid based on https://www.gov.uk/designprinciples/styleguide#item_4_1_3
     var words = [
+            ['Lorem ipsum'],
             ['a depressive',"a person with / someone who has depression - odi.dwp.gov.uk/inclusive-communications/representation/language.php"],
             ['a diabetic',"a person with / someone who has diabetes - odi.dwp.gov.uk/inclusive-communications/representation/language.php"],
             ['a number of'],
