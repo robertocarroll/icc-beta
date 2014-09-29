@@ -98,6 +98,7 @@
 'citizen empowerment',"(Local Government Association banned words, 2007)"
 'clampdown',"Trade cliches, Keith Waterhouse, On Newspaper Style"
 'clash',"disagreement? - Tabloidese, Keith Waterhouse, On Newspaper Style"
+'click here'
 'client',"(Local Government Association banned words, 2009)"
 'close proximity'
 'cohesive communities',"(Local Government Association banned words, 2009)"

@@ -123,7 +123,7 @@ Avoid repeating large chunks of legal text. For example, don’t include a long 
 ## Links
 Links are the fundamental basis of the web. Internal links (ones between different parts of our website) help to create a rich experience, prevent repeating large chunks of text and help improve rankings with search engines.   
 
-Don’t use “click here” for links. Make the link descriptive – explaining what the link offers - preferably matching the title of the document you are linking to and make sense when read out of context. 
+Don’t use "More", "Further Information", "Visit", "Watch Now", "Download" or "Click Here".  for links. Make the link descriptive – explaining what the link offers - preferably matching the title of the document you are linking to and make sense when read out of context. 
 
 **Example**<br>Instead of “For more information on the structure of the ICC, click here” write “See [who's who at the International Criminal Court](link) for more information”.
 
