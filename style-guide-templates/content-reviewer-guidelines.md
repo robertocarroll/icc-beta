@@ -1,8 +1,8 @@
 ---
 layout: style
-title: Content reviewers checklist 
+title: Content reviewer guidelines 
 ---
-# Content reviewers checklist 
+# Content reviewer guidelines
 Use this guide to maintain the quality, consistency and accessibility of content submitted by content experts.  
 
 ## Big questions 
