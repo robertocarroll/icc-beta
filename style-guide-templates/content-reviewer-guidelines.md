@@ -3,12 +3,12 @@ layout: style
 title: Content reviewer guidelines 
 ---
 # Content reviewer guidelines
-Use this guide to maintain the quality, consistency and accessibility of content submitted by content experts.  
+Use this guide to maintain the quality, consistency and accessibility of content submitted by content experts. 
 
 ## Big questions 
 - What is the specific thing a user is trying to do on this page?
 - Have we helped him or her to achieve it quickly and easily?
-- What is our a measure of success? 
+- What is our measure of success? 
 - How are we going to monitor it? 
 
 ## Understandable and findable 

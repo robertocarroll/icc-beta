@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <title>Page title</title>
+
+    <meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE10">
+
+		<!-- External CSS -->
+		<link rel="stylesheet" href="../assets/build/main.css">
+
+		<script type="text/javascript" src="//use.typekit.net/ltx5lhb.js"></script>
+		<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
+		<script src="http://d3js.org/d3.v3.min.js"></script>
+		<script src="http://d3js.org/topojson.v1.min.js"></script>
+		<script src="datamaps.world.js"></script>
+
+		<style>
+
+		body {
+			background: #efefef;
+		}
+
+		.datamaps-subunit[data-info='{"fillKey":"Situations"}']:hover, .datamaps-subunit[data-info='{"fillKey":"Ongoingpe"}']:hover {
+			cursor: pointer; 
+			cursor: hand;
+		}
+
+		h2 {
+			font-size: 16px;
+			text-transform: uppercase;
+			font-weight: 700;
+		}
+
+		ul {
+			list-style-type: none;
+			padding:0; 
+			margin:0;
+		}
+
+		li {
+	    display: block;
+	    padding: 4px 0;
+	    border-bottom: 1px dotted #ccc;
+		}
+
+
+
+		/* Position tooltip above the element */
+		
+
+		/* Triangle hack to make tooltip look like a speech bubble */
+		/*.hoverinfo:after {
+			position: absolute;
+			top: -14%;
+			left: 50%;
+			margin-left: -5px;
+			width: 0;
+			border-bottom: 5px solid #fff;
+			border-bottom: 5px solid hsla(0, 0%, 20%, 0.9);
+			border-right: 5px solid transparent;
+			border-left: 5px solid transparent;
+			content: " ";
+			font-size: 0;
+			line-height: 0;
+		}*/
+
+		</style>	
+
+  </head>
+
+  <body>
+
+  	<article role="main" class="col wide content-main">
+								
+	<div class="page-content">
+
+	<div class="row">
+
+  	<div id="container" viewBox="0 0 1000 500"
+  preserveAspectRatio="xMidYMid" style="position: relative; width: 1000px; height: 550px;"></div>
+
+  			<div class="col three padded-left">&nbsp;</div>
+
+  <div class="col three padded-right">
+  	<h2>Ongoing preliminary examinations</h2>
+
+  	<ul id="pe"><li class="country-link" id="Afghanistan" >
+                     <a href="/en_menus/icc/structure%20of%20the%20court/office%20of%20the%20prosecutor/comm%20and%20ref/pe-ongoing/afghanistan" >Afghanistan</a></li><li class="country-link" id="Colombia" >
+                     <a href="/en_menus/icc/structure%20of%20the%20court/office%20of%20the%20prosecutor/comm%20and%20ref/pe-ongoing/colombia" >Colombia</a></li><li class="country-link" id="Comoros" >
+                     <a href="/en_menus/icc/structure%20of%20the%20court/office%20of%20the%20prosecutor/comm%20and%20ref/pe-ongoing/comoros" >Comoros</a></li><li class="country-link" id="Nigeria" >
+                     <a href="/en_menus/icc/structure%20of%20the%20court/office%20of%20the%20prosecutor/comm%20and%20ref/pe-ongoing/nigeria" >Nigeria</a></li><li class="country-link" id="Georgia" >
+                     <a href="/en_menus/icc/structure%20of%20the%20court/office%20of%20the%20prosecutor/comm%20and%20ref/pe-ongoing/georgia" >Georgia</a></li><li class="country-link" id="Guinea" >
+                     <a href="/en_menus/icc/structure%20of%20the%20court/office%20of%20the%20prosecutor/comm%20and%20ref/pe-ongoing/guinea" >Guinea</a></li><li class="country-link" id="Honduras" >
+                     <a href="/en_menus/icc/structure%20of%20the%20court/office%20of%20the%20prosecutor/comm%20and%20ref/pe-ongoing/honduras" >Honduras</a></li><li id="Iraq" class="country-link" >
+                     <a href="/EN_Menus/icc/structure%20of%20the%20court/office%20of%20the%20prosecutor/comm%20and%20ref/pe-ongoing/iraq/pages/iraq.aspx" >Iraq</a></li><li class="country-link" id="Ukraine" >
+                     <a href="/en_menus/icc/structure%20of%20the%20court/office%20of%20the%20prosecutor/comm%20and%20ref/pe-ongoing/ukraine/Pages/ukraine.aspx" >Ukraine</a></li></ul>
+
+  	
+		</div>
+
+	
+
+		<div class="col three padded">
+
+			<h2>Situations under investigation</h2>
+  	<ul >
+  		<li class="country-link" id="DRC" >
+          <a href="/en_menus/icc/situations%20and%20cases/situations/situation%20icc%200104" >Democratic Republic of the Congo</a></li>
+     	<li class="country-link" id="Uganda" >
+          <a href="/en_menus/icc/situations%20and%20cases/situations/situation%20icc%200204" >Uganda</a></li>
+      <li class="country-link" id="CAR" >
+                     <a href="/en_menus/icc/situations%20and%20cases/situations/situation%20icc%200105" >Central African Republic</a></li><li class="country-link" id="Darfur" >
+                     <a href="/en_menus/icc/situations%20and%20cases/situations/situation%20icc%200205" >Darfur, Sudan</a></li><li class="country-link" id="Kenya" >
+                     <a href="/en_menus/icc/situations%20and%20cases/situations/situation%20icc%200109" >Kenya</a></li><li class="country-link" id="Libya" >
+                     <a href="/en_menus/icc/situations%20and%20cases/situations/icc0111" >Libya</a></li><li class="country-link" id="CDI" >
+                     <a href="/en_menus/icc/situations%20and%20cases/situations/icc0211" >Côte d’Ivoire</a></li><li class="country-link" id="Mali" >
+                     <a href="/en_menus/icc/situations%20and%20cases/situations/icc0112" >Mali</a></li><li class="country-link" id="CAR" >
+                     <a href="/EN_Menus/icc/situations%20and%20cases/situations/icc-01-14" >Central African Republic II</a></li></ul>
+  	
+             </div>       
+
+             	<div class="col three padded-left">&nbsp;</div> 
+
+      </div>          		
+	</div><!-- page-content -->
+								
+</article>     
+
+
+  <!-- JavaScript Situations: '#00275D' // Ongoingpe: '#6699CC' -->
+	
+
+	<script>
+
+    var map = new Datamap({
+        element: document.getElementById('container'),
+        projection: 'mercator',
+		    fills: {
+		        defaultFill: '#ffffff',
+		        Situations: '#244676',
+		        Ongoingpe: '#AABFD4'
+		    }
+		    ,
+        geographyConfig: {
+            highlightOnHover: false,
+            popupOnHover: true,
+            popupTemplate: function (geo, data) {
+            if ( !data ) return;
+            return ['<div class="hoverinfo">',
+                geo.properties.name,
+                '</div>'].join('');
+        		}
+        },
+		    data: {
+		        COD: {
+		            fillKey: 'Situations',
+		        },
+		        UGA: {
+		            fillKey: 'Situations'
+		        },
+		        CAF: {
+		            fillKey: 'Situations'
+		        },
+		        COD: {
+		            fillKey: 'Situations',
+		        },
+		        SDN: {
+		            fillKey: 'Situations'
+		        },
+		        KEN: {
+		            fillKey: 'Situations'
+		        },
+		        LBY: {
+		            fillKey: 'Situations'
+		        },
+		        CIV: {
+		            fillKey: 'Situations'
+		        },
+		        MLI: {
+		            fillKey: 'Situations'
+		        },
+		        AFG: {
+		            fillKey: 'Ongoingpe'
+		        },
+		        COL: {
+		            fillKey: 'Ongoingpe'
+		        },
+		        GEO: {
+		            fillKey: 'Ongoingpe'
+		        },
+		        GNB: {
+		            fillKey: 'Ongoingpe'
+		        },
+		        NGA: {
+		            fillKey: 'Ongoingpe'
+		        },
+		        HND: {
+		            fillKey: 'Ongoingpe'
+		        },
+		        IRQ: {
+		            fillKey: 'Ongoingpe'
+		        },
+		        UKR: {
+		            fillKey: 'Ongoingpe'
+		        }
+		        
+		    },
+		    done: function(datamap) {
+            datamap.svg.selectAll('.datamaps-subunit').on('click', function(geography) {
+                alert(geography.properties.name);
+            });
+				}
+
+
+
+    });
+
+	</script>
+
+	</body>
+</html>
+
+<!-- Thanks to http://codeguide.co/ -->
+
