@@ -31,6 +31,10 @@
 	margin: 0;
 }
 
+.fake-numbers {
+	margin-left: 36px;
+}
+
 .roman {
   list-style-type: lower-roman;
 }
@@ -57,6 +61,10 @@
     padding-bottom: 48px;
 }
 
+.no-margin-below {
+	margin-bottom: 0;
+}
+
 .padding-bottom-big {
 	padding-bottom: 42em;
 }
@@ -67,17 +75,19 @@
 
 .long-text li {
   padding-bottom: 24px;
+  line-height: 1.5em;
 }
 
-.tight li {
+.tight li, .long-text li.small-pad {
   padding-bottom: 6px;
 }
 
-.long-text h2 {
+.long-text h1, .long-text h2, .long-text h3 {
   padding-top: 36px;
 }
 
-.long-text h3, .long-text h4 {
+.long-text h4
+ {
   padding-top: 30px;
 }
 
