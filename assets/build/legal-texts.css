@@ -13,14 +13,26 @@
   font-weight: 700;
 }
 
+.no-bullets {
+  list-style-type: none;
+  padding-left: 0;
+}
+
 .letters {
   list-style-type: lower-alpha;
+}
 
+.letters li {
+	padding-bottom: 12px !important;
+}	
+
+.in-bullets {
+	padding: 16px 0 0 0;
+	margin: 0;
 }
 
 .roman {
   list-style-type: lower-roman;
-
 }
 
 .contents {
@@ -30,6 +42,8 @@
 
 .big-section {
   margin-left: 0;
+  padding-top: 12px;
+  padding-bottom: 6px;
 }
 
 .otp-report-header, .rome-statute-header {
@@ -40,6 +54,14 @@
 .padding-below {
     display: block;
     padding-bottom: 48px;
+}
+
+.padding-bottom-big {
+	padding-bottom: 36em;
+}
+
+.padding-top {
+	padding-top: 24px;
 }
 
 .long-text li {
@@ -60,7 +82,6 @@
 
 .back-to-top {
     font-size: 0.75em;
-
 }
 
 .back-to-top:after {
