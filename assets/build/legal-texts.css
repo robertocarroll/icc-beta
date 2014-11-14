@@ -22,7 +22,7 @@
   list-style-type: lower-alpha;
 }
 
-.letters li {
+.letters li, .padding-below-list li {
 	padding-bottom: 12px !important;
 }	
 
@@ -43,7 +43,6 @@
   display: block;
   margin-left: 24px;
 }
-
 
 .big-section {
   margin-left: 0;
@@ -82,13 +81,13 @@
   padding-bottom: 6px;
 }
 
-.long-text h1, .long-text h2, .long-text h3 {
-  padding-top: 36px;
+.long-text h1, .long-text h2 {
+  padding-top: 48px;
 }
 
-.long-text h4
+.long-text h3, .long-text h4
  {
-  padding-top: 30px;
+  padding-top: 32px;
 }
 
 .back-to-top {
@@ -98,6 +97,10 @@
 .back-to-top:after {
     content: "↑";
     padding-left: 5px;
+}
+
+.uppercase {
+	text-transform: uppercase;
 }
 
 /* Slide Panel */
