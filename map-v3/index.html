@@ -1,8 +1,4 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
 <meta charset="utf-8">
 <title>World Map</title>
 
@@ -27,8 +23,7 @@ body {
 
 .coastline {
   fill: none;
-  stroke: #777;
-  stroke-dasharray: 2,2;
+  stroke: #D5D5D5;
   stroke-linejoin: round;
 }
 
@@ -166,13 +161,13 @@ div.tooltip {
 d3.select(window).on("resize", throttle);
 
 var padding = 5;
-var scaleSetting = 1.6;
+var scaleSetting = 1.7;
 
 // Set the height and width
 var width = document.getElementById('map').offsetWidth-padding;
 var height = width / scaleSetting;
 
-var activeCountries, topo, borders, projection, path, svg;
+var activeCountries, topo, borders, coastline, projection, path, svg;
 
 var tooltip = d3.select("#map").append("div").attr("class", "tooltip hidden");
 
@@ -205,6 +200,8 @@ function ready(error, world, active) {
   topo = countries;
   activeCountries = active;
 
+  coastline = topojson.mesh(world, world.objects.countries, function(a, b) { return a === b });
+
   topo.forEach(function(d, i) {
         activeCountries.forEach(function(e, j) {
             if (d.id === e.id) {
@@ -214,10 +211,10 @@ function ready(error, world, active) {
         })
     })
 
-  draw(topo, activeCountries);
+  draw(topo, activeCountries, coastline);
 }
 
-function draw(topo, activeCountries) {
+function draw(topo, activeCountries, coastline) {
 	 var activeCountry = svg.selectAll(".activeCountry").data(activeCountries);
 
 	 svg.selectAll(".country")
@@ -227,6 +224,11 @@ function draw(topo, activeCountries) {
 	    	.attr("id", function(d) { return d.id; })
 	      .attr("d", path); 
 	 
+	 svg.insert("path", ".graticule")
+	 		.datum(coastline)
+	 		.attr("class","coastline")
+			.attr("d", path);     
+
 	activeCountry.enter().append("path")
     	.attr("class", function(d,i) { return d.status; })
     	.attr("id", function(d) { return d.id; })
@@ -257,7 +259,7 @@ function redraw() {
   height = width / scaleSetting;
   d3.select('svg').remove();
   setup(width,height);
-  draw(topo, activeCountries);
+  draw(topo, activeCountries, coastline);
 }
 
 var throttleTimer;
