@@ -1,0 +1,18 @@
+id,name,url,status
+COD,Democratic Republic of the Congo,http://link/cod',situation
+UGA,Uganda,http://link/uga,situation
+CAF,Central African Republic,http://link/caf,situation
+SDN,"Darfur, Sudan",http://link/sdn,situation
+KEN,Kenya,http://link/ken,situation
+LBY,Libya,http://link/lby,situation
+CIV,"Côte d'Ivoire",http://link/civ,situation
+MLI,Mali,http://link/mli,situation
+AFG,Afghanistan,http://link/afg,preliminary
+COL,Colombia,http://link/col,preliminary
+GEO,Georgia,http://link/geo,preliminary
+GNB,Guinea,http://link/gnb,preliminary
+NGA,Nigeria,http://link/nga,preliminary
+HND,Honduras,http://link/hnd,preliminary
+IRQ,Iraq,http://link/irq,preliminary
+CAF,Central African Republic II,http://link/civ,preliminary
+UKR,Ukraine,http://link/ukr,preliminary
