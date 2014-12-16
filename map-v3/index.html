@@ -14,8 +14,14 @@ body {
 	background-color: #efefef;
 }
 
-#map {
+.map-wrapper {
 	width: 100%;
+}
+
+@media (max-width: 620px) {
+       .map-wrapper {
+       	display: none;
+       }
 }
 
 @media (max-width: 620px) {
@@ -121,7 +127,9 @@ div.tooltip {
 </head>
 <body>
 
+<div class="map-wrapper">
   <div id="map"></div>
+</div>  
 
   <div class="links">  
 			  <div class="col three padded-left">&nbsp;</div>
