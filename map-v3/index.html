@@ -18,18 +18,6 @@ body {
 	width: 100%;
 }
 
-@media (max-width: 620px) {
-       .map-wrapper {
-       	display: none;
-       }
-}
-
-@media (max-width: 620px) {
-       #map {
-       	display: none;
-       }
-}
-
 #container { 
 	background-color: #efefef;
 }
@@ -63,18 +51,6 @@ body {
 
 .links {
 	margin-top: -50px;
-}
-
-@media (max-width: 960px) {
-	 .links {
-	 	padding:20px;
-		margin-top: 0px;
-	}
-
-	.col {
-		padding-top: 30px;
-	}
-
 }
 
 h2 {
@@ -120,6 +96,25 @@ div.tooltip {
   box-shadow: 0px 0px 2px 0px #a6a6a6; 
   position: absolute;
   z-index: 2;
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 620px) {
+	.map-wrapper {
+   	display: none;
+   }
+   #map {
+   	display: none;
+   }
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 960px) {
+	 .links {
+		 	padding:20px;
+			margin-top: 0px;
+		}
+	.col {
+		padding-top: 30px;
+	}
 }
 
 </style>
