@@ -149,6 +149,7 @@ div.tooltip {
 
 <script>
 
+// check for 
 if('querySelector' in document
      && 'addEventListener' in window) {
      	var jsCheck = document.getElementById('map-no-show');
@@ -166,7 +167,9 @@ var height = width / scaleSetting;
 var activeCountries, topo, borders, coastline, projection, path, svg, g;
 var tooltip = d3.select("#map").append("div").attr("class", "tooltip hidden");
 
-if (width > 520) {
+
+//only load the map on devices bigger than an iphone
+if (width > 668) {
 	setup(width,height);
 }
 
@@ -243,7 +246,7 @@ function draw(topo, activeCountries, coastline) {
 	        tooltip
 	          .classed("hidden", false)
 	          .attr("style", "left:"+(mouse[0]+offsetL)+"px;top:"+(mouse[1]+offsetT)+"px")
-	          .html(d.name)
+	          .html('<a href="'+ d.url + '">' + d.name + '</a>')
 	      })
 	      .on("mouseout",  function(d,i) {
 	        tooltip.classed("hidden", true)
