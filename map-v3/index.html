@@ -90,12 +90,6 @@ div.tooltip {
   z-index: 2;
 }
 
-@media only screen and (min-device-width : 320px) and (max-device-width : 620px) {
-   #map {
-   	display: none;
-   }
-}
-
 @media only screen and (min-device-width : 320px) and (max-device-width : 960px) {
 	 .links {
 		 	padding:20px;
@@ -111,7 +105,8 @@ div.tooltip {
 </head>
 <body>
 
-  <div id="map"></div>
+  	<div id="map-no-show"></div>
+
 
   <div class="links">  
 			  <div class="col three padded-left">&nbsp;</div>
@@ -154,6 +149,12 @@ div.tooltip {
 
 <script>
 
+if('querySelector' in document
+     && 'addEventListener' in window) {
+     	var jsCheck = document.getElementById('map-no-show');
+			jsCheck.id="map"; 
+     }
+
 // Calls the resize function 
 d3.select(window).on("resize", throttle);
 
@@ -165,7 +166,10 @@ var height = width / scaleSetting;
 var activeCountries, topo, borders, coastline, projection, path, svg, g;
 var tooltip = d3.select("#map").append("div").attr("class", "tooltip hidden");
 
-setup(width,height);
+if (width > 520) {
+	setup(width,height);
+}
+
 
 //initial setup
 function setup(width,height){
