@@ -6,10 +6,6 @@
   
   <script type='text/javascript' src='http://code.jquery.com/jquery-git.js'></script>
 
-
-  
-
-
 <script type='text/javascript'>//<![CDATA[ 
 $(window).load(function(){
 (function($) {
@@ -65,7 +61,7 @@ $(window).load(function(){
 ///////////
 var d1 = lookupCountryWithFreegeoip();
 var d2 = lookupCountryWithHostipInfo();
-var d3 = lookupLatLongWithBrowserGeolocation().pipe(latLongToCountryWithGeonames);
+var d3 =  null;//lookupLatLongWithBrowserGeolocation().pipe(latLongToCountryWithGeonames);
 var d4 = lookupCountryWithGeoplugin();
 
 $.reverseWhen(d1, d2, d3, d4).then(function(r,s,t,u,v,w) {
@@ -87,45 +83,45 @@ $.when(d1, d2, d3, d4).then(function () {
 
 //////////////////////////////////////////////////
 
-function lookupLatLongWithBrowserGeolocation() {
-    var me = 'browser geolocation',
-        dfr = $.Deferred();
+// function lookupLatLongWithBrowserGeolocation() {
+//     var me = 'browser geolocation',
+//         dfr = $.Deferred();
 
-    navigator.geolocation.getCurrentPosition(function(position) {
-        console.log(me + ' resolving: ' + position.coords.latitude + ',' + position.coords.longitude);
+//     navigator.geolocation.getCurrentPosition(function(position) {
+//         console.log(me + ' resolving: ' + position.coords.latitude + ',' + position.coords.longitude);
 
-        dfr.resolve({who: me, coords: position.coords});
-    });
+//         dfr.resolve({who: me, coords: position.coords});
+//     });
 
-    return dfr;
-}
+//     return dfr;
+// }
 
 // supports CORS and JSONP
-function latLongToCountryWithGeonames(data) {
-    var me = 'geonames',
-        dfr = $.ajax({
-            url: 'http://ws.geonames.org/countryCode',
-            data: {
-                lat: data.coords.latitude,
-                lng: data.coords.longitude,
-                type: 'JSON'
-            },
-            dataType: $.support.cors ? 'json' : 'jsonp'
-        });
+// function latLongToCountryWithGeonames(data) {
+//     var me = 'geonames',
+//         dfr = $.ajax({
+//             url: 'http://ws.geonames.org/countryCode',
+//             data: {
+//                 lat: data.coords.latitude,
+//                 lng: data.coords.longitude,
+//                 type: 'JSON'
+//             },
+//             dataType: $.support.cors ? 'json' : 'jsonp'
+//         });
 
-    dfr = dfr.pipe(function(results) {
-        if (results.countryCode === 'XX') {
-            console.log(me + ' rejecting: ' + results.countryCode);
+//     dfr = dfr.pipe(function(results) {
+//         if (results.countryCode === 'XX') {
+//             console.log(me + ' rejecting: ' + results.countryCode);
 
-            return $.Deferred().reject();
-        } else {
-            console.log(me + ' returning: ' + results.countryCode);
+//             return $.Deferred().reject();
+//         } else {
+//             console.log(me + ' returning: ' + results.countryCode);
 
-            return {who: me, code: results.countryCode};
-        }
-    });
-    return dfr;
-}
+//             return {who: me, code: results.countryCode};
+//         }
+//     });
+//     return dfr;
+// }
 
 // supports CORS only
 function lookupCountryWithHostipInfo() {
