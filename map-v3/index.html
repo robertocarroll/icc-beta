@@ -260,8 +260,10 @@ function redraw() {
   width = document.getElementById('map').offsetWidth-padding;
   height = width / scaleSetting;
   d3.select('svg').remove();
-  setup(width,height);
-  draw(topo, activeCountries, coastline);
+   if (width > 668) {	
+	  setup(width,height);
+	  draw(topo, activeCountries, coastline);
+	}
 }
 
 var throttleTimer;

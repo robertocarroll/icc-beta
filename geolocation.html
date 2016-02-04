@@ -3,10 +3,10 @@
 <head>
   <meta http-equiv="content-type" content="text/html; charset=UTF-8">
   <title>Deferred look up country code via multiple geolocation webapis - jsFiddle demo by hippietrail</title>
-  
-  <script type='text/javascript' src='http://code.jquery.com/jquery-git.js'></script>
 
-<script type='text/javascript'>//<![CDATA[ 
+  <script type='text/javascript' src='https://code.jquery.com/jquery-1.12.0.js'></script>
+
+<script type='text/javascript'>//<![CDATA[
 $(window).load(function(){
 (function($) {
     $.reverseWhen = function(subordinate /* , ..., subordinateN */ ) {
@@ -163,7 +163,7 @@ function lookupCountryWithGeoplugin() {
 
     dfr = dfr.pipe(function(results) {
         console.log(me + ' returning: ' + results.geoplugin_countryCode);
-        
+
         return {who: me, code: results.geoplugin_countryCode};
     });
     return dfr;
@@ -179,7 +179,7 @@ function lookupCountryWithFreegeoip() {
 
     dfr = dfr.pipe(function(results) {
         console.log(me + ' returning: ' + results.country_code);
-        
+
         return {who: me, code: results.country_code};
     });
     return dfr;
@@ -188,15 +188,15 @@ function lookupCountryWithFreegeoip() {
 
 
 
-});//]]>  
+});//]]>
 
 </script>
 
 
 </head>
 <body>
-  
-  
+
+
 </body>
 
 
